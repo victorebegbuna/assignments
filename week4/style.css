@@ -1,0 +1,61 @@
+h2{
+    font-size: 50;
+    color: white;
+    
+}
+
+h{
+    font-size: medium;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    
+
+}
+button {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: orangered;
+    border-width: 0px;
+}
+
+.button2 {
+    color: rgb(52, 102, 114);
+}
+
+.button3{
+    color: rgb(23, 65, 62);
+}
+
+
+main{
+    width: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+    
+}
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    flex: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+    flex: 0;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    flex: 0;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
